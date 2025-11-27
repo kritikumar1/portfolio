@@ -1,1 +1,170 @@
-
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left">
+          <p class="color">K</p>
+          <p>riti</p>
+        </div>
+        <div class="right">
+          <i id="open" class='bx bx-menu color' ></i>
+          <ul id="ul">
+            <i id="cut" class='bx bx-x' ></i>
+            <li id="h"><a href="/#home">Home</a></a>
+            <li id="a"><a href="/#about">About</a></a>
+            <li id="s"><a href="/#services">Services</a></a>
+            <li id="p"><a href="/#portfolio">Portfolio</a></a>
+            <li id="c"><a href="/#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section id="home">
+        <div class="left">
+          <p><span>Hi I'm</span><span class="color">Kriti Kumar</span></p>
+          <p><span>From</span><span class="color">Odisha, India</span></p>
+          <p class="color" id="element"></p>
+          <img src="{{url_for('static', filename='images/bg.jpg')}}">
+        </div>
+        <div class="right">
+          <img src="{{url_for('static', filename='images/bg.jpg')}}">
+        </div>
+      </section>
+      <section id="about">
+        <div class="left">
+          <img src="{{url_for('static', filename='images/photo.png')}}">
+        </div>
+        <div class="right">
+          <h1 class="color">About Me:-</h1>
+          <p>
+            I'm Kriti Kumar, an experienced UI/UX Designer and Web Developer based in Odisha, India, specializing in turning complex ideas into clean, functional, and visually stunning digital experiences. I focus on creating interfaces that not only look great but drive real results for businesses.
+          </p>
+          <div>
+          <div class="cont">
+            <h1 class="color">Skils</h1>
+            <div class="side">
+              <div class="dot"></div>
+              <div class="dot-line"></div>
+              <h2 class="color">Front-End Development</h2>
+              <p>Building responsive and visually appealing user interfaces.</p>
+            </div>
+            <div class="side">
+              <div class="dot"></div>
+              <div class="dot-line"></div>
+              <h2 class="color">Back-End Development (Python/Flask)</h2>
+              <p>Setting up server-side logic and application routes.</p>
+            </div>
+            <div class="side">
+              <div class="dot"></div>
+              <div class="dot-line"></div>
+              <h2 class="color">UI/UX Design Principles</h2>
+              <p>Creating intuitive and engaging user journeys.</p>
+            </div>
+            <div class="side">
+              <div class="dot"></div>
+              <div class="dot-line"></div>
+              <h2 class="color">Aesthetic & Visual Presentation</h2>
+              <p>Proficient in using iconography systems like Boxicons to enhance user experience and aesthetics.</p>
+            </div>
+          </div>
+          <div class="cont">
+            <h1 class="color">Education</h1>
+            <div class="side">
+              <div class="dot"></div>
+              <div class="dot-line"></div>
+              <h2 class="color">Co-adarea & YouTube (Skill Development)</h2>
+              <p>This demonstrates your proactive approach to learning and practical skill application.</p>
+            </div>
+            <div class="side">
+              <div class="dot"></div>
+              <div class="dot-line"></div>
+              <h2 class="color">Chrome Developer Tools (Core Skill)</h2>
+              <p>This is a professional-grade skill that every client appreciates, as it relates directly to quality and performance.</p>
+            </div>
+            <div class="side">
+              <div class="dot"></div>
+              <div class="dot-line"></div>
+              <h2 class="color">Hackers Eye / Security Platforms (Unique Value)</h2>
+              <p>This provides a crucial differentiator: you build with security and integrity in mind.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <h1 class="color">Services</h1>
+        <div>
+        <div class="service">
+          <img src="{{url_for('static', filename='images/webdesine.jpeg')}}">
+          <h2 class="color">Web Desiner</h2>
+          <p></p>
+          <aside> Leveraging tools like Chrome Dev Tools and a security-first mindset, I guarantee your final product is not only reliable but optimized for speed and long-term integrity.</aside>
+        </div>
+        <div class="service">
+          <img src="{{url_for('static', filename='images/webdevelopment.jpeg')}}">
+          <h2 class="color">Web Developer</h2>
+          <p></p>
+          <aside>I then build these designs into fast, responsive, and secure web applications using modern standards, specializing in Python/Flask and robust front-end technologies.</aside>
+        </div>
+        <div class="service">
+          <img src="{{url_for('static', filename='images/uiux.jpg')}}">
+          <h2 class="color">UI/UX Design</h2>
+          <p></p>
+          <aside>I begin by designing intuitive, human-centered interfaces that ensure smooth user journeys and maximize engagement.</aside>
+        </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h1 class="color">My Works</h1>
+        <div>
+          <div class="service">
+          <a href="https://kritikumar1.github.io/Quick_deliver/">
+          <img src="{{url_for('static', filename='images/quickdelivery.jpg')}}">
+          <h2 class="color">E-Commerse website</h2>
+          <p></p>
+          <aside>Shop smarter, live better: your one-stop online destination for quality goods.<br><i class='bx bx-link-external'></i></aside>
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="color">Contact Me</h1>
+        <div>
+        <div class="left">
+          <div><i class='bx bxs-envelope color'></i> pradhankritikumar999@gmail.com</div>
+          <div><i class='bx bxl-whatsapp color' ></i> +91 8984843626</div>
+          <div>
+            <a href="https://www.facebook.com/profile.php?id=61583872379716"><i class='bx bxl-facebook-square color'></i></a>
+            <a href="mailto:pradhankritikumar999@gmail.com"><i class='bx bx-envelope color' ></i></a>
+            <a href="https://www.instagram.com/code_with_kriti_?igsh=cHk1MzlkcDU2Y29h"><i class='bx bxl-instagram-alt color' ></i></a>
+            <a href="https://github.com/kritikumar1"><i class='bx bxl-github color' ></i></a>
+          </div>
+          <div><button><a href="#">DOWNLOAD CV</a></button></div>
+        </div>
+        <div class="right">
+          <form class="form-container" method="POST" action="/contact">
+            <div class="input-group">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Name</label>
+            </div>
+            <div class="input-group">
+              <input type="text" id="email" name="email" required>
+              <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+              <textarea id="message" name="message" required></textarea>
+              <label for="message">Message</label>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="static/js/script.js"></script>
+  </body>
+</html>
